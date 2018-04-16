@@ -1,0 +1,20 @@
+@import '../../pages/styles/colors.scss';
+nav {
+    background: $black;
+    color: white;
+    padding: 10px 20px 0px 20px;
+    height: 40px;
+}
+nav .nav-left {
+    float:left;
+}
+nav .nav-right {
+    float:right;  
+}
+nav .nav-right a {
+    margin-left: 10px;
+    color: white;
+}
+.admin-button{
+  margin-left: 5px !important;
+}
